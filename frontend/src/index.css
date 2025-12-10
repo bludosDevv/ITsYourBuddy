@@ -221,6 +221,12 @@ code {
                         0 0 60px rgba(0, 191, 255, 0.3);
         }
     }
+    
+    /* Hide Emergent badge */
+    #emergent-badge {
+        display: none !important;
+        visibility: hidden !important;
+    }
 }
 
 @layer base {
